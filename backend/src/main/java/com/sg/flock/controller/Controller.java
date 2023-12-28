@@ -32,7 +32,7 @@ import org.springframework.web.bind.annotation.*;
  * @author nicho
  */
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "80")
 @RestController
 @RequestMapping("/api")
 public class Controller {
