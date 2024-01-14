@@ -14,7 +14,7 @@ public class CORSConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("http://ec2-3-147-76-142.us-east-2.compute.amazonaws.com") // Replace with the actual domain of your Angular app
+                        .allowedOrigins("http://ec2-18-191-237-231.us-east-2.compute.amazonaws.com/") // Replace with the actual domain of your Angular app
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
                         .allowCredentials(true);

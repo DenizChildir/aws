@@ -27,12 +27,8 @@ import com.sg.flock.service.TweetValidationException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
-/**
- *
- * @author nicho
- */
 
-@CrossOrigin(origins = "80")
+@CrossOrigin(origins = "http://ec2-18-191-237-231.us-east-2.compute.amazonaws.com/")
 @RestController
 @RequestMapping("/api")
 public class Controller {

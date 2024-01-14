@@ -9,7 +9,7 @@ import {Reply} from '../models/reply';
   providedIn: 'root',
 })
 export class TweetService {
-  private apiUrl = 'http://ec2-3-147-76-142.us-east-2.compute.amazonaws.com/api/posts';
+  private apiUrl = 'http://ec2-18-191-237-231.us-east-2.compute.amazonaws.com/api';
 
   constructor(private http: HttpClient) {
   }
